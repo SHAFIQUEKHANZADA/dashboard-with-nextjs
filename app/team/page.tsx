@@ -80,11 +80,11 @@ export default function TeamSettings() {
                   {/* {members.email} */}
                 <div className="col-span-2">
                 <UserItem 
-                  backgroundColor={members.backgroundColor}
+{/*                   backgroundColor={members.backgroundColor}
                   title={members.full_name}
                   description={members.email}
                   shadow={false}
-                  border={false}
+                  border={false} */}
                   />
                 </div>
                 <div className="col-span-3 flex gap-2">
