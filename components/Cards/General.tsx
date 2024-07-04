@@ -18,7 +18,7 @@ import {
 // website examples showcase many properties,
 // you'll often use just a few of them.
 const MyResponsiveBump = (props: any) => {
-  return <ResponsiveBump
+  return <MyResponsiveBump
     data={props.data}
     colors={{ scheme: 'spectral' }}
     lineWidth={3}
